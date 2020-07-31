@@ -1,0 +1,11 @@
+.center{
+    width:700px;
+    position:absolute;
+    left:200px;
+    top:100px;
+}
+.center img{
+    position:absolute;
+    right:50px;
+    top:130px;
+}

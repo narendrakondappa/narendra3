@@ -1,8 +1,9 @@
 body{
-    background-color: #008a8a;
+    background-color: #323535;
     text-align:center;
     margin-top: 0 auto;
     border: 6px double #000000 ;
+    color:rgb(240, 235, 235);
 }
 body h1{
     font-family:cursive;
@@ -12,8 +13,8 @@ body h1{
     position:absolute;
     left:95px;
     width:15%;
-    top:50px;
-    transform: rotate(30deg);
+    top:60px;
+    transform: rotate(-30deg);
 }
 #img2 img{
     width:12%;
@@ -25,6 +26,7 @@ body h1{
 }
 .maincontent{
     display:block;
+    color:rgb(240, 235, 235);
 }
 .imgtext div{
     padding:10px;
@@ -36,7 +38,7 @@ body h1{
     font-weight:bolder;
 }
 body img{
-    box-shadow:0px 5px 5px 3px;
+    box-shadow:0px 3px 5px 1px;
     border-radius: 20px 20px 20px 20px;
 }
 .eagle{
@@ -47,7 +49,6 @@ body img{
 .eagle p{
     margin-right: 40px;
     width:70%;
-    height:5vh;
     margin-top: auto;
     margin-bottom: auto;
     border-radius:20px 20px 20px 20px;
@@ -62,10 +63,11 @@ body img{
 .n2 p{
     margin-top: auto;
     margin-bottom: auto;
-    margin-left: 35px;
+    margin-left: 60px;
     width:60%;
     border-radius:20px 20px 20px 20px;
     box-shadow:0px 3px 3px 3px;
+    padding:5px;
 }
 .n3{
     display:inline-flex;

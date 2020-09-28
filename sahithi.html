@@ -43,7 +43,7 @@
                         <p>Never loose your childishness and dont grow old...</p>
                     </div>
                     <div class="n4">
-                        <img src="images/one.jpg" alt="error" width="60%" height="100%">
+                        <img src="images/one.jpg" alt="error" width="60%" height="100%" id="imagechange" onclick="changeimg()">
                         <p>I dont know y,but i always saw u as a big Baby only..with big cheeks(stuffed)</p>
                     </div>
                     <div class="n5">
@@ -55,6 +55,22 @@
                             <img src="images/bday1.gif" alt="error">
                         </nav>
                     </div>
+                    i=0;
+                    var images=["images/one.jpg","images/two.jpeg","images/three.jpeg","images/four.jpeg"]
+                    <script>
+                        function changeimg()
+                        {
+                           var h1=document.getElementById("imagechange");
+                            if(h1.src.match(images[i])
+                               {
+                                    i++;
+                                    if(i==4)
+                                    {i=0;
+                                    }
+                                    h1.src=images[i];
+                               }
+                        }
+                    </script>         
                 </div>
             </div>
         </main>

@@ -11,7 +11,7 @@ body h1{
 }
 .img1 img{
     position:absolute;
-    left:95px;
+    left:80px;
     width:15%;
     top:60px;
     transform: rotate(-30deg);

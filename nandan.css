@@ -141,7 +141,7 @@ body img{
     }
     .head img{
         position:absolute;
-        left:95px;
+        left:80px;
         width:15%;
         top:50px;
         transform: rotate(30deg);

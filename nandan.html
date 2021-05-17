@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <style>
+        h3 {
+            text-shadow: 0px 2px 2px rgb(0, 0, 0);
+        }
+    </style>
+    <meta charset="utf-8">
+    <title>
+        birthday
+    </title>
+    <meta name="viewport" content="width=device-width ,initial-scale=1" />
+</head>
+<link rel="stylesheet" type="text/css" href="nandan.css">
+
+<body>
+    <div class="head">
+        <div class="img1">
+            <img src="images/download.png" alt="error">
+            <h1>Happy Birthday</h1>
+            <h3>Nandhan</h3>
+        </div>
+        <div id="img2">
+            <img src="images/download (1).png" alt="error">
+        </div>
+    </div>
+    <main>
+        <div class="maincontent">
+            <div class="text1">
+                <p> Many Many Big Big Happy returns of the day "DUMMA"</p>
+            </div>
+            <div class="imgtext">
+                <div class="eagle">
+                    <p>Great years with u and still going on strong....</p>
+                    <!--<img src="https://lh3.googleusercontent.com/DCAh7lVYUYeefR2PZdEv9lqGpSfZBj71xlgJGloIn6viAOy-9uRTwqeZ2SsEbtnRiEqtfaaUYm5AG3qHRuTUi4K8Hf5h5AO7y30-58Ov1T0-ML8ZYlR1Vto2HnRNn2g2GXShbSMcREm_6Ij365TX7IGFcAfADgtGRsGYAXc8sldj_CXWbAbVwdXrJao8OACvDuDOvS9vb95eGGFNPHNEqc2foXzK6uhwVURD-Qls7-qPr4AM_Fdcd1MJAk1wKYE_exMUYzBzkRHcxto5SjQ4GvRmSdbANvarXPwzdbkGPRTQozxjFRIuL0zqpDnF1CGrdqmtUx9GIgK4ajmoXzXAg7ddAmn2xawgU_5v_SvMBy4u71r7uWc2H_HN3x5_IGiSCTUnE6oeHMcGUyr72y2Ly-rXmt3lByXioMtK2rgiDlXgB_YCmG3Rgih6fh166k1QbhSkZCyrJj5hL09A7872BsvRlM6l2yT_c3d7ZytT0hGFvLL4AA3fPTtfCe5mcWvKuIrUAuJzknURcovlysF2WzeqtS_CQLBGJj36mAKP7_ipfwZFHhsiYIsjYyF5a9BJ3jjzO_-OksPTslD2AmM2D7rjAvVVKeLJXBQrJcBXAbS3Pom9FnykKriZpWzzM-e_4SS-VG9ZXa4IalxR4B6sz6zgITBRZNgKj8S8kx7W-deFZCPpCg3BGF7l0Wps_Q=w1157-h900-no?authuser=0" alt="error" width=30%>-->
+                </div>
+                <div class="n2">
+                    <!--<img src="https://lh3.googleusercontent.com/jGrJNIRUrBNOWb4-adEiFo5HLan0j0GJJDFG3YsLz9QmxrWMU3xvjo9QWjLgau9OYAme=s113" alt="error" width="25%" height="20%">-->
+                    <p>That mysore trip was fun and hope next we can go for one foreign trip...one day!! expenses are yours..</p>
+                </div>
+                <div class="n3">
+                    <!--<img src="https://lh3.googleusercontent.com/jGrJNIRUrBNOWb4-adEiFo5HLan0j0GJJDFG3YsLz9QmxrWMU3xvjo9QWjLgau9OYAme=s113" alt="error" width="25%" height="20%">-->
+                    <p>I dont know what u will do,I want to do romance in your cabin..so become doctor fast..</p>
+                </div>
+                <div class="n4">
+                    <img src="images/one.jpg" onclick="changeimg()" alt="error" width="60%" height="100%"
+                        id="imagechange">
+                    <p>Just enjoy every moment of your life..work hard ,results will show up at the end.</p>
+                </div>
+                <div class="n5">
+                    <!--<img src="https://lh3.googleusercontent.com/jGrJNIRUrBNOWb4-adEiFo5HLan0j0GJJDFG3YsLz9QmxrWMU3xvjo9QWjLgau9OYAme=s113" alt="error" width="25%" height="20%">-->
+                    <!--<p>Finally, i m waiting for real big treat..haha</p>-->
+                </div>
+                <div id="img">
+                    <nav>
+                        <a href="celeb1.html">--><img src="images/bday1.gif" alt="error">
+                        </a>
+                    </nav>
+                    <!--<p><b> please click on the image</b></p>-->
+                </div>
+            </div>
+        </div>
+        <script>
+            var images = [
+                "images/one.jpg", "images/two.jpg", "images/three.jpg", "images/four.jpg"
+            ]
+            i = 0;
+            function changeimg() {
+                var h1 = document.getElementById("imagechange");
+                if (h1.src.match(images[i])) {
+                    i++;
+                    if (i == 4) {
+                        i = 0;
+                    }
+                    h1.src = images[i];
+                }
+            }
+        </script>
+    </main>
+</body>
+
+</html>
